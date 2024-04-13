@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Dashboard</title>
+</head>
+<body>
+    <form id="formSubmit">
+        <label for="itemName">Item Name: </label>
+        <input type="text" name="itemName" id="itemName" style="margin-right: 20px;">
+        <label for="description">Description: </label>
+        <input type="text" name="description" id="description" style="margin-right: 20px;">
+        <label for="price">Price: </label>
+        <input type="number" name="price" id="price" style="margin-right: 20px;">
+        <label for="quantity">Quantity: </label>
+        <input type="number" name="quantity" id="quantity" style="margin-right: 20px;">
+        <button type="submit">Add Item</button>
+    </form>
+    <ul id="items"></ul>
+    
+</body>
+<script src="index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"></script>
+</html>
